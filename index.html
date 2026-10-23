@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopStyle - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav> <h2 class="logo">ShopStyle</h2>
+        <ul class="menu">
+           
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#prodwit">Produits</a></li>
+            <li><a href="#categorie">Catégorie</a></li>
+            <li><a href="#commande">Commands</a></li>
+        </ul>
+    
+       
+        
+        
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil">
+       <h1>Bienvenue chez SchopStyle</h1>
+       <p>Découvrez nos meilleurs prouduits aux meilleurs prix.</p>
+       <a href="">Découvrir les produit</a>
+    </header>
+
+    <!-- Produits -->
+    <section id="produits">
+        <h2 class="titre">Nos produits</h2>
+        <div class="box">
+            <img src="chaussures.jpg" alt="" srcset="">
+            <h1>Chaussures sport</h1>
+            <p>prix:120DT</p>
+            <a href="#commande" class="btn">Commander</a>
+        </div>
+        <div class="box">
+            <img src="sac.jpg" alt="" srcset="">
+            <h1>Sac à main</h1>
+            <p>prix:85DT</p>
+            <a href="#commande" class="btn">Commander</a>
+        </div>
+        <div class="box">
+            <img src="montre.jpg" alt="" srcset="">
+            <h1>Montre classique</h1>
+            <p>prix:150DT</p>
+            <a href="#commande" class="btn">Commander</a>
+        </div>
+
+    </section>
+
+    <!-- Catégories -->
+    <section id="category-section">
+        <h2 class="titre">Nos catégories</h2>
+        <div class="category-list">
+            <ul>
+                <li>Vétements</li>
+                <li>Chaussures</li>
+                <li>Sacs</li>
+                <li>Acsessoires</li>
+                <li>Montres</li>
+            </ul>
+        </div>
+            
+        
+    </section>
+
+    <!-- Tableau -->
+    <section id="tableau">
+        <h2 class="titre">Liste des prix</h2>
+        <div>
+            <table>
+                <th>
+                    <tr>
+                        <th>Produits</th>
+                        <th>Catégorie</th>
+                        <th>prix</th>
+                    </tr>
+                    
+                </th>
+                <th>
+                    <tr>
+                        <td>Chaussures sport</td>
+                        <td>Chaussures</td>
+                        <td>120DT</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Montre classique</td>
+                        <td>Accessoire</td>
+                        <td>150DT</td>
+                    </tr>
+                </th>
+            </table>
+            
+        </div>
+        
+        
+    </section>
+
+    <!-- Formulaire -->
+    <section id="commande">
+        <h2 class="titre">Passer une commande</h2>
+        <form action="trait.php" method="post">
+            <div>
+                <label for="nom">Nom complet:</label>
+                <input type="text" placeholder="Votre nom">
+            </div>
+            <div class="">
+                <label for="email">Adresse e-mail</label>
+                <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+            </div>
+            <div>
+                <label for="produit">Choisir un prodwit:</label>
+                <select name="produit" id="">
+                    <option value="chaussures_sport">Chaussures sport</option>
+                    <option value="sac-a-main">Sac à main</option>
+                    <option value="Montre">Montre classique</option>
+                </select>
+            </div>
+        </form>
+       
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 ShopStyle - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>

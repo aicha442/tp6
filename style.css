@@ -1,0 +1,139 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+
+ul.menu {
+    display: inline-block;
+}ul.menu li {
+    display: inline-block;
+}ul.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}ul.menu a:hover {
+    color: rgb(34, 117, 212);
+    background-color: #ccc;
+    padding: 15px;
+}
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+#accueil a {
+    background: orange;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+#accueil a:hover {
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(219, 131, 16);
+    padding: 6px;
+}
+.box p{
+    text-align: center;
+    color: rgb(231, 144, 29);
+    text-decoration: none;
+    padding: 6px;
+    font-weight: bold;
+}
+.box a {
+    background: rgb(243, 155, 39);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+}
+.box a:hover {
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(219, 131, 16);
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    padding: 10PX;
+    margin: 0 5%;
+    border-radius: 10px;
+    overflow-x: auto;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 0 3px black;
+}
+.box img{
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+category-list {
+    width: 300px;
+    height: 120px;
+    padding: 100%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: inline-block;
+    box-shadow: 0 0 3px black;
+}
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+
+/* Boxes produits */
+
+
+/* Catégories */
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
